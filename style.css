@@ -104,3 +104,9 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width:420px){
+    .search{
+        width: 80%;
+    }
+}
