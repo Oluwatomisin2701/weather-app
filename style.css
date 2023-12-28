@@ -105,8 +105,132 @@ body{
     display: none;
 }
 
-@media (max-width:420px){
-    .search{
+@media (max-width: 768px){
+    .card{
+        margin: 50px 50px 0;
+    }
+}
+
+@media(min-width:425px) and (max-width:500px){
+    .card {
+        margin: 50px 20px 0;
         width: 80%;
+        max-width: 300px;
+        padding: 10px 10px;
+    }
+
+    .search input {
+        padding: 5px 10px;
+        margin: 0;
+        height: 40px;
+    }
+
+    .search button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .humidity,
+    .wind {
+        font-size: 14px;
+    }
+
+    .col img {
+        width: 20px;
+    }
+
+    .weather-icon {
+        width: 120px;
+    }
+
+    .search button img {
+        width: 10px;
+    }
+}
+@media (max-width: 425px){
+    .card{
+        margin: 50px 10px 0;
+        width: 80%;
+        max-width: 300px;
+        padding: 10px 10px;
+    }
+    .search input{
+        padding: 5px 10px;
+        margin: 0;
+        height: 40px;
+    }
+    .search button{
+        height: 40px;
+        width: 40px;
+    }
+    .weather h1{
+        font-size: 50px;
+    }
+    .weather h2{
+        font-size: 35px;
+    }
+    .humidity, .wind{
+        font-size: 14px;
+    }
+    .col img{
+        width: 20px;
+    }
+    .weather-icon{
+        width: 120px;
+    }
+    .search button img{
+        width: 10px;
+    }
+}
+
+@media (max-width:375px){
+    .card{
+        margin: 40px 10px 0;
+        width: 70%;
+        max-width: 280px;
+        padding: 10px 5px;
+    }
+    .search input{
+        padding: 10px 15px;
+        height: 30px;
+        width: 70%;
+        font-size: 15px;
+    }
+    .search button{
+        height: 30px;
+        width: 30px;
+    }
+    .weather h1{
+        font-size: 30px;
+    }
+    .weather h2{
+        font-size: 20px;
+    }
+    .weather-icon{
+        width: 100px;
+    }
+    .humidity, .wind{
+        font-size: 10px;
+    }
+    .coln{
+        font-size: 14px;
+    }
+}
+@media (max-width:340px){
+    .coln{
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px){
+    .coln{
+        font-size: 10px;
     }
 }
