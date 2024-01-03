@@ -111,17 +111,46 @@ body{
     }
 }
 
+
+
+@media (max-width:720px){
+    .card{
+        margin: 50px 45px 0;
+        width: 100%;
+        max-width: 500px;
+        padding: 15px 15px;
+    }
+}
+
+@media (max-width:640px){
+    .card{
+        margin: 50px 50px 0;
+        width: 100%;
+        max-width: 450px;
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width:568px){
+    .card{
+        margin: 50px 30px 0px;
+        width: 100%;
+        max-width: 450px;
+        padding: 10px 10px;
+    }
+}
+
 @media(min-width:425px) and (max-width:500px){
     .card {
-        margin: 50px 20px 0;
-        width: 80%;
-        max-width: 300px;
+        margin: 50px 35px 0;
+        width: 100%;
+        max-width: 350px;
         padding: 10px 10px;
     }
 
     .search input {
         padding: 5px 10px;
-        margin: 0;
+        margin-left: 5px;
         height: 40px;
     }
 
@@ -157,9 +186,9 @@ body{
 }
 @media (max-width: 425px){
     .card{
-        margin: 50px 10px 0;
-        width: 80%;
-        max-width: 300px;
+        margin: 50px 15px 0;
+        width: 100%;
+        max-width: 350px;
         padding: 10px 10px;
     }
     .search input{
@@ -170,6 +199,7 @@ body{
     .search button{
         height: 40px;
         width: 40px;
+        margin-left: 5px;
     }
     .weather h1{
         font-size: 50px;
@@ -191,11 +221,20 @@ body{
     }
 }
 
+@media (max-width:412px){
+    .card {
+        margin: 50px 25px 0;
+        width: 100%;
+        max-width: 350px;
+        padding: 10px 10px;
+    }
+}
+
 @media (max-width:375px){
     .card{
         margin: 40px 10px 0;
-        width: 70%;
-        max-width: 280px;
+        width: 100%;
+        max-width: 340px;
         padding: 10px 5px;
     }
     .search input{
@@ -230,6 +269,12 @@ body{
     }
 }
 @media (max-width: 320px){
+    .card {
+        margin: 40px 10px 0;
+        width: 100%;
+        max-width: 300px;
+        padding: 10px 5px;
+    }
     .coln{
         font-size: 10px;
     }
